@@ -1,0 +1,252 @@
+.container1{
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200vh;
+    height: 100vh;
+    margin: 0;
+    padding: 0px;
+    }
+    
+    .navbarContainer{
+      height: 200px;
+    }
+    
+    
+    /* .imgProfile{
+      width: 100px;
+      display: flex;
+      align-items:enter;
+    } */
+    
+    .RegisterForm{
+      background-color: rgba(0, 0, 0, 0);
+      padding: 2px;
+    }
+    
+    
+    .inputImg{
+      display: none;
+    }
+    
+    .lblUpload{
+      /* background-color: #1111; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* width: fit-content; */
+      /* padding: 10px; */
+      cursor: pointer;
+    
+    }
+    
+    .imgProfile{
+      background-color: #1111;
+      border: 3px solid black;
+      border-radius: 5px;
+      margin-right: 10px;
+      width: 350px;
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    .registrationContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 50px;
+        padding: 2px;
+    }
+    
+    .form-group{
+      margin: 20px;
+      display: table-caption;
+    
+    }
+    .form-group input{
+      width: 350px;
+      padding:3px;
+      height:40px;
+    }
+    
+    input.form-control{
+      margin: 5px;
+    }
+    
+    .form-control{
+      padding: 10px;
+      font-size: large;
+      font-weight: 30px;
+      border-radius: 5px;
+    }
+    
+    
+    .RegisterForm{
+     backdrop-filter: brightness(0.5);
+     padding: 20px; 
+    }
+    
+    .inputLabel{
+      margin-bottom: 20px;
+    }
+
+    .lblUpload{
+      color: white;
+      font-size: 20px;
+      font-weight: 20px;
+      margin-bottom: 5px;
+    }
+    
+    .registerButton{
+      width: -webkit-fill-available;
+      background-color: black;
+      color: white;
+      font-size: 20px;
+      font-weight: 20px;
+      height: 50px;
+      margin: 13px;
+      border-radius: 5px;
+    }
+    
+    .registerButton:hover{
+      width: -webkit-fill-available;
+      background-color: grey;
+      color: white;
+      font-size: 20px;
+      font-weight: 20px;
+      height: 50px;
+      cursor: pointer;
+    }
+    
+    .welcomeContainer{
+      display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+       
+    }
+    
+    .content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: brightness(0.5);
+      padding: 50px;
+      font-size: 20px;
+    }
+    
+    .navbar{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 20px;
+    }
+    
+    .home, .about, .logout, .contact{
+      margin: 10px;
+      padding: 10px;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    
+    }
+    
+    .home:hover, .about:hover, .contact:hover{
+      margin: 10px;
+      padding: 10px;
+      color: white;
+      font-size: 21px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: underline;
+    
+    }
+    
+    .logoutBtn{
+      padding: 10px;
+      width: 150px;
+      background: transparent;
+      border: none;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    
+     
+    }
+    .logoutBtn:hover{
+      padding: 10px;
+      width: 150px;
+      background: transparent;
+      border: none;
+      color: white;
+      font-size: 21px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: underline;
+    
+     
+    }
+    
+    .logo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+    }
+    
+    .logo img{
+      
+       height:50px;
+       border-radius: 100%;
+      
+    }
+    
+    .selectLogo span{
+      color: white;
+    }
+    
+    .selectLogo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .form-control_anchor {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 20px;
+      margin: 10px;
+      color: #fff;
+      padding: 5px 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .form-control_anchor:hover{
+    color: grey;
+    cursor: pointer;
+    }
+
+    .form-heading{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #selectedImage{
+      margin: 8px;
+      font-size: 13px;
+
+    }
+
+    #histoImage{
+      
+      margin-left: 100px;
+    }
